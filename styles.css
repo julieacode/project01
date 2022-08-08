@@ -6,7 +6,7 @@
 body { margin: 0; font-family: 'Roboto', sans-serif; color: rgb(100,100,100); }
 
 
-/*STRUCTURE*/
+/*HOME PAGE STRUCTURE*/
 
 header { width: 100%; height: 70px; background: rgb(150,150,150); padding: 5px 0; }
     #logo { width: 200px; height: 70px; background: rgb(150,150,150); float: left; padding-top: 5px; }
@@ -15,7 +15,7 @@ header { width: 100%; height: 70px; background: rgb(150,150,150); padding: 5px 0
     nav li a { color: rgb(255,255,255); text-decoration: none; }
     nav li a:hover { color: rgb(17, 113, 113); text-decoration: none; }
     
-section.hero { width: 100%; height: 500px; padding: 5px 0; background: url('bgheroimg.jpg'); }
+section.hero { width: 100%; height: 500px; padding: 5px 0; background: url('bgheroimg.jpg')}
     .heroimage { margin: 70px 0 0 20px; }
     .herocontent { width: 100%; height: 500px; text-align: center; padding-top: 50px; color: rgb(255,255,255); text-shadow: 2px 2px 5px rgba(0,0,0,0.75); }
     section.hero h1 { font-size: 325%; margin-bottom: -10px; font-family: 'Roboto', sans-serif, cursive; line-height: 1em; font-weight: normal; }
@@ -45,37 +45,15 @@ footer { display: flex; width: 100%; height: 300px; background: rgb(150,150,150)
 
 .container { width: 1200px; height: 100%; margin: 0 auto; }
 
-/* Style inputs with type="text", select elements and textareas */
 
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+/*CONTACT PAGE STRUCTURE*/
+
+input[type=text], textarea { display: flex; flex-flow: row nowrap; justify-content: space-between; width: 40%; padding: 10px; border: 1px solid rgb(200,200,200); border-radius: 5px; box-sizing: border-box; margin: 10px; resize: vertical; font-size: 15px; }
+label { font-size: 20px; font-weight: bold; margin-left: 20px; margin-top: 20px; }
+
+input[type=submit] { background-color: rgb(100,100,100); color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
   
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: rgb(17,113,113);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+input[type=submit]:hover { background-color: rgb(17,113,113); }
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: rgb(17,113,113);
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+.formcontainer { border-radius: 5px; background-color: rgb(200,200,200); padding: 60px; }
+.formcontainer h2 { font-size: 40px; text-align: center; }
