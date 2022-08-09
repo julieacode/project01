@@ -43,7 +43,7 @@ footer { display: flex; width: 100%; height: 300px; background: rgb(150,150,150)
     .footerorganize li { display: inline-block; text-align: center; margin: auto; padding-right: 20px; }
     .footerorganize li a img { flex-direction: row; width: 30px; height: 30px; padding: 5px; border-radius: 5px; }
 
-.container { width: 1200px; height: 100%; margin: 0 auto; }
+.container.mycontainer { width: 1200px; height: 100%; margin: 0 auto; }
 
 
 /*CONTACT PAGE STRUCTURE*/
