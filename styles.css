@@ -8,9 +8,9 @@ body { margin: 0; font-family: 'Roboto', sans-serif; color: rgb(100,100,100); }
 
 /*HOME PAGE STRUCTURE*/
 
-header { width: 100%; height: 70px; background: rgb(150,150,150); padding: 5px 0; }
+header { width: 100%; height: 80px; background: rgb(150,150,150); padding: 5px 0; font-family: 'Roboto', sans-serif; }
     #logo { width: 200px; height: 70px; background: rgb(150,150,150); float: left; padding-top: 5px; }
-    nav { float: left; margin-left: 300px; }
+    nav { float: left; margin-left: 300px; padding-top: 10px; }
     nav li { display: inline; margin-right: 35px; font-weight: normal; font-size: 25px; }
     nav li a { color: rgb(255,255,255); text-decoration: none; }
     nav li a:hover { color: rgb(17, 113, 113); text-decoration: none; }
@@ -56,4 +56,13 @@ input[type=submit] { background-color: rgb(100,100,100); color: white; padding: 
 input[type=submit]:hover { background-color: rgb(17,113,113); }
   
 .formcontainer { border-radius: 5px; background-color: rgb(200,200,200); padding: 60px; }
-.formcontainer h2 { font-size: 40px; text-align: center; }
+
+h2 { font-size: 40px; text-align: center; }
+
+/*ABOUTUS PAGE STRUCTURE*/
+
+.aboutuscontainer { padding: 80px 120px; }
+.col-sm-4 { border: 10px solid transparent; margin-bottom: 25px; width: 80%; height: 80%; opacity: 0.8; font-size: 25px; font-family: 'Roboto', sans-serif; }
+  .col-sm-4:hover { border-color: #f1f1f1; } 
+
+
